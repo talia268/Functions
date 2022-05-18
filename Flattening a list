@@ -1,0 +1,15 @@
+def flatter(arr):
+  flatlst = []
+  for i in arr:
+    for j in i:
+      flatlst.append(j)
+  return flatlst
+  
+  
+  # An alternate version making use of list comprehension:
+  
+  def flatter(arr):
+    return [j for i in arr for j in i]
+    
+    
+ # And also alternatively you can use libraries which already have the built-in flatten() function.      
