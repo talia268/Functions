@@ -1,0 +1,12 @@
+ # Python has the built-in reverse() function, but ı will show you how to define your own.
+ 
+ def reverser(arr):
+  return arr[::-1]
+  
+  # An alternative
+  
+  def reverser(arr):
+    reversed_lst = []
+    for i in range(len(arr)):
+      reversed_lst.append(arr.pop())
+      
