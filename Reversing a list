@@ -9,4 +9,5 @@
     reversed_lst = []
     for i in range(len(arr)):
       reversed_lst.append(arr.pop())
+    return reversed_lst  
       
